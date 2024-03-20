@@ -13,7 +13,7 @@ The database should be able to:
 ## Data Model and Collections
 
 ### 1. Statutes Collection
-```json
+
 {
   "_id": ObjectId,
   "title": "Title of the statute",
@@ -23,7 +23,7 @@ The database should be able to:
   "created_at": "Timestamp of when the document was added to the database",
   "updated_at": "Timestamp of when the document was last updated"
 }
-2. Regulations Collection
+### 2. Regulations Collection
 
 
 {
@@ -35,9 +35,8 @@ The database should be able to:
   "created_at": "Timestamp of when the document was added to the database",
   "updated_at": "Timestamp of when the document was last updated"
 }
-3. Case Law Collection
-json
-Copy code
+### 3. Case Law Collection
+
 {
   "_id": ObjectId,
   "title": "Title of the case",
@@ -49,9 +48,8 @@ Copy code
   "created_at": "Timestamp of when the document was added to the database",
   "updated_at": "Timestamp of when the document was last updated"
 }
-4. Jurisdictions Collection
-json
-Copy code
+### 4. Jurisdictions Collection
+
 {
   "_id": ObjectId,
   "name": "Name of the jurisdiction",
@@ -59,9 +57,8 @@ Copy code
   "country": "Country where the jurisdiction belongs",
   "created_at": "Timestamp of when the jurisdiction was added to the database"
 }
-5. Users Collection (for future expansion)
-json
-Copy code
+### 5. Users Collection (for future expansion)
+
 {
   "_id": ObjectId,
   "username": "Username of the user",
@@ -70,7 +67,8 @@ Copy code
   "role": "Role of the user (e.g., admin, researcher)",
   "created_at": "Timestamp of when the user account was created"
 }
-Conclusion
+
+# Conclusion
 The Legal Research Repository Database designed using MongoDB provides a scalable and efficient solution for storing and managing legal research materials. With separate collections for statutes, regulations, case law, jurisdictions, and potential user management, the database structure allows for easy retrieval, organization, and expansion to meet future requirements.
 
 vbnet
